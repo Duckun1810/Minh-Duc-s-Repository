@@ -24,4 +24,5 @@ Bước 4: Quay lại thư mục gốc để mở giao diện
 streamlit run app.py
 ```
 ## Lưu ý
-Chỉ cần huấn luyện mô hình một lần. Kết quả mô hình sẽ được lưu lại cho các lần chạy  sau.
+1. Chỉ cần huấn luyện mô hình một lần. Kết quả mô hình sẽ được lưu lại cho các lần chạy  sau.
+2. Thay đổi đường dẫn trong code của file train_model.py và app.py phù hợp với thiết bị của bạn.
