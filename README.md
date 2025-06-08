@@ -1,4 +1,27 @@
-Các bước để chạy giao diện demo
-Bước 1: Dùng lệnh 'pip install -r requirements.txt' để cài đặt các gói cần thiết
-Bước 2: Dùng lệnh 'python train_model.py' để huấn luyện mô hình XGBoost (chờ khoảng 5 phút)
-Bước 3: Chạy lệnh 'streamlit run app.py' để mở giao diện demo
+## Các bước để chạy code
+
+Bước 1: Mở Terminal, thiết lập môi trưởng ảo (nếu cần)
+```
+.\venv\Scripts\activate
+```
+
+Bước 2: Cài đặt các gói thư viện cần thiết
+
+```bash
+pip install -r requirements.txt
+```
+Bước 3: Huấn luyện mô hình XGBoost (chờ khoảng 5 phút hoặc hơn)
+```
+cd notebooks
+```
+```python
+python train_model.py
+```
+
+Bước 4: Quay lại thư mục gốc để mở giao diện
+
+```python
+streamlit run app.py
+```
+## Lưu ý
+Chỉ cần huấn luyện mô hình một lần. Kết quả mô hình sẽ được lưu lại cho các lần chạy  sau.
