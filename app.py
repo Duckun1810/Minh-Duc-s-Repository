@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
+# Sửa đường dẫn phù hợp với thiết bị của bạn
 # Load mô hình và scaler
 model = joblib.load('D:/DemoWebXGBoost/models/xgboost_model.pkl')
 scaler = joblib.load('D:/DemoWebXGBoost/models/scaler.pkl')
