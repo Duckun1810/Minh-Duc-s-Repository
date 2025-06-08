@@ -10,6 +10,7 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_curve, 
 import joblib
 import matplotlib.pyplot as plt
 
+# Sửa đường dẫn phù hợp thiết bị
 # 1️⃣ Đọc dữ liệu
 df = pd.read_csv("D:/DemoWebXGBoost/data/bodyPerformance.csv")
 
