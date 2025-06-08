@@ -18,7 +18,7 @@ cd notebooks
 python train_model.py
 ```
 
-Bước 4: Quay lại thư mục gốc để mở giao diện
+Bước 4: Mở giao diện
 
 ```python
 streamlit run app.py
